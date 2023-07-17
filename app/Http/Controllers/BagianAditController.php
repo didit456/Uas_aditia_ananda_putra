@@ -13,5 +13,5 @@ class BagianAditController extends Controller
         $bagianadit = DB::table('bagianadit')->get();
         //mengirim data ke view bagian
         return view('bagianadit', ['bagianadit' => $bagianadit]);
-    }//
+    }
 }
